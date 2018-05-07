@@ -26,7 +26,6 @@ static int dbg_count_Points{ 0 };
 	}
 	bool Point::DbgHasLeaks()
 	{
-		std::cout << dbg_count_Points;
 		return dbg_count_Points != 0;
 	}
 
